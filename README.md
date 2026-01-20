@@ -1,11 +1,11 @@
-##End-to-End Machine Learning Pipeline with API Deployment
-###Project Overview
+***End-to-End Machine Learning Pipeline with API Deployment***
+**Project Overview**
 
 Building reliable and production-ready machine learning systems involves more than just training models. Common challenges include data leakage, which can inflate performance metrics, and model deployment, which requires integrating ML models into real-world systems while maintaining consistent performance over time.
 
 This project demonstrates an end-to-end ML pipeline designed to address these challenges. It includes automated data preprocessing, model training, evaluation, and reporting, followed by deployment as an API that can be integrated into a web application or microservices architecture. The focus is on ML system reliability, reproducibility, and maintainability rather than on model complexity.
 
-###Key Features
+**Key Features**
 
 Leakage-Protected ML Pipeline: Implements data preprocessing and model training steps designed to prevent data leakage.
 
@@ -17,7 +17,7 @@ Microservices Architecture: Separates Authentication, ML model, and Web App serv
 
 Security Considerations: Implements authentication and secure handling of credentials.
 
-###Objectives
+**Objectives**
 
 Build a robust ML pipeline that prevents data leakage and ensures reproducible model evaluation.
 
@@ -25,7 +25,7 @@ Deploy trained models in a production-like environment for real-world usage.
 
 Document the pipeline and deployment workflow for future reference and reuse.
 
-###Project Structure
+**Project Structure**
 
 img/ – Images for README documentation.
 
@@ -69,4 +69,6 @@ FastAPI for API deployment
 
 Microservices architecture
 
-Git for version con
+**Results**
+
+<img width="2417" height="3017" alt="2023_05_25_metrics_result" src="https://github.com/user-attachments/assets/fa9c8220-f611-4ff7-925f-36b4f2016a23" />
